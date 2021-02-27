@@ -1,0 +1,27 @@
+<%- include('partials/header'); -%>
+    <title>Full Post</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <head>
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="row my-4">
+          <div class="card mx-auto" style="width: 35rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center"><%= singlePost.name%></h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Email: <%= singlePost.email%></li>
+                <li class="list-group-item">Contact: <%= singlePost.contact%></li>
+                <li class="list-group-item">Department: <%= singlePost.department%></li>
+                <li class="list-group-item">Education: <%= singlePost.education%></li>
+                <li class="list-group-item">Address: <%= singlePost.address%></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+
+</body>
+</html>

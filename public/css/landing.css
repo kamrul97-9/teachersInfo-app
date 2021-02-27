@@ -1,0 +1,38 @@
+.centered {
+      padding-top: 200px;
+      text-align: center;
+  }
+  a[type = "button"]{
+    border-radius: 10px;
+  }
+  body{
+    background-size: cover;
+    background-color: #274752;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    min-height: 100%;
+    position: relative;
+    padding: 0px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  html{
+    height: 100%;
+  }
+  #content{
+    text-align: center;
+    color: #8A817C;
+    padding-top:15%;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 5em;
+  }
+  hr{
+    width:400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
