@@ -49,7 +49,13 @@ app.use(userRoutes);
 app.use(authRoutes);
 app.use(postRoutes);
 
-const port = process.env.PORT || 10010;
+
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 10010;
+}
 app.listen(port, () =>{
-    console.log(`This server is running on http://localhost:${port}`);
+    // console.log(`This server is running on http://localhost:${port}`);
+    console.log("Server has started Successfully");
 });
