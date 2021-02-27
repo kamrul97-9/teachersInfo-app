@@ -11,7 +11,6 @@
   },
   "author": "Kamrul Islam",
   "license": "ISC",
-
   "engines": {
     "node": "12.16.1"
   },
