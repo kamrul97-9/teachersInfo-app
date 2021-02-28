@@ -51,11 +51,11 @@ app.use(postRoutes);
 
 
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 10010;
-}
-app.listen(port, () =>{
+const PORT = process.env.PORT || 10010;
+// if (port == null || port == "") {
+//   port = 10010;
+// }
+app.listen(PORT, () =>{
     // console.log(`This server is running on http://localhost:${port}`);
-    console.log("Server has started Successfully");
+    console.log(`Server has started Successfully`);
 });
